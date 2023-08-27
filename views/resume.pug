@@ -1,0 +1,324 @@
+extends base.pug
+
+block scripts 
+
+block style
+    style 
+        include ../static/base.css
+        include ../static/resume.css
+
+block content
+    section#flottingpart
+        section#title 
+            h1 RESUME
+            ul#smallerNav
+                li #[a(href="#education-section") EDUCATION] 
+                li #[a(href="#experience-section") EXPERIENCE]  
+                li #[a(href="#skills-section") SKILLS] 
+                li #[a(href="#courses-section") COURSES] 
+
+        hr
+        section#bodypart
+            section#education-section
+                h1#eduHeading EDUCATION
+                p.des Class Tenth schooling (95.8 %):-
+                p
+                    li.ed The Helix Oxford Smart School, Patiala, Punjab 
+                p.des Class Twelth schooling (94.6 %) :-
+                p
+                    li.ed The Helix Oxford Smart School, Patiala, Punjab 
+                p.des Btech. Computer Science Engineering (CGPA- 9.47) :- 
+                p
+                    li.ed NIIT University, Neemrana, Alwar dist., Rajasthan
+
+            section#experience-section
+                h1#expHeading EXPERIENCE
+                h4
+                
+                    a.subheadings(href="")  INTERN AT NIIT UNIVERSITY
+                h3.timings OCTOBER 2021 - DECEMBER 2021
+                ul 
+                    li Selected as a P2PL tutor for Fundamentals of Electronics under  Prof. Vikas Upadhyay from NIIT University.
+                    li Providing extra curriculum support in their semester courses through P2PL.
+                    li A peer- to- peer learning initiative taken by NIIT University.
+
+                //- h4
+                //-     a.subheadings(href="https://drive.google.com/file/d/1uw-b1bkcum2w8-69-rqP8xmuqb8XKcOm/view")  INTERN AT NIIT UNIVERSITY
+                //- h3.timings FEBRUARY 2022 - MAY 2022
+                //- ul 
+                //-     li Again selected as a P2PL tutor for Algebra and Differential equations under  Dr. Ganapathirao Maradana. 
+                //-     li Enjoyed taking sessions, doubts, conducting tests for students to help them improve with the course.
+                //-     li Got a hold over my speech, confidence and boosted up my knowledge!
+
+                //- h4
+                //-     a.subheadings(href="https://docs.google.com/presentation/d/148GtjkXkD7AQW9jU5O6YPMNOzQWtmxII/edit#slide=id.p1")  INTERN AT CODING NINJAS
+                //- h3.timings NOVEMBER 30, 2022 - MARCH 31, 2023
+                //- ul 
+                //-     li Hired as an intern for Coding Ninjas.
+                //-     li Key responsibilities included taking doubt sessions and Debugging codes. 
+                //-     li Included helping students in their assignments and various projects.
+
+            section#skills-section
+                h1#skillHeading SKILLS 
+                p#skillsdesc Here are some of my skills that you may like to have a look: 
+                section#skill-1.skills
+                    section.skillBar
+                        section.skillName HTML
+                        section.gradebar 
+                            section.grade 5/5
+
+                section#skill-2.skills
+                    section.skillBar
+                        section.skillName CSS
+                        section.gradebar
+                            section.grade 5/5
+
+                section#skill-3.skills 
+                    section.skillBar
+                        section.skillName Bootstrap
+                        section.gradebar 
+                            section.grade 5/5
+
+                section#skill-4.skills
+                    section.skillBar
+                        section.skillName Javascript
+                        section.gradebar 
+                            section.grade 5/5
+
+                section#skill-5.skills 
+                    section.skillBar
+                        section.skillName Python Liabraries
+                        section.gradebar  
+                            section.grade 5/5
+                //- section#skill-6.skills
+                //-     section.skillBar 
+                //-         section.skillName Ajax
+                //-         section.gradebar 
+                //-             section.grade 4/5
+
+                section#skill-7.skills 
+                    section.skillBar 
+                        section.skillName Node.js
+                        section.gradebar
+                            section.grade 4.5/5
+
+                //- section#skill-8.skills
+                //-     section.skillBar
+                //-         section.skillName Lektor
+                //-         section.gradebar  
+                //-             section.grade 4/5
+
+                section#skill-9.skills 
+                    section.skillBar 
+                        section.skillName Express
+                        section.gradebar
+                            section.grade 4/5
+                    
+                //- section#skill-10.skills
+                //-     section.skillBar
+                //-         section.skillName SASS
+                //-         section.gradebar  
+                //-             section.grade  4/5
+
+                //- section#skill-11.skills 
+                //-     section.skillBar
+                //-         section.skillName Gulp
+                //-         section.gradebar  
+                //-             section.grade 3.5/5
+
+                //- section#skill-12.skills 
+                //-     section.skillBar 
+                //-         section.skillName Angular
+                //-         section.gradebar
+                //-             section.grade  4/5
+
+                section#skill-13.skills  
+                    section.skillBar 
+                        section.skillName React
+                        section.gradebar
+                            section.grade 4.5/5
+
+                //- section#skill-14.skills  
+                //-     section.skillBar
+                //-         section.skillName Vue
+                //-         section.gradebar 
+                //-             section.grade 4/5
+
+                //- section#skill-15.skills  
+                //-     section.skillBar
+                //-         section.skillName JSX
+                //-         section.gradebar 
+                //-             section.grade 3.5/5
+
+                //- section#skill-16.skills  
+                //-     section.skillBar
+                //-         section.skillName Hooks
+                //-         section.gradebar 
+                //-             section.grade 3/5
+
+                //- section#skill-17.skills  
+                //-     section.skillBar
+                //-         section.skillName Redux
+                //-         section.gradebar 
+                //-             section.grade 3/5
+
+                section#skill-18.skills  
+                    section.skillBar
+                        section.skillName Python 
+                        section.gradebar
+                            section.grade 5/5
+
+                section#skill-19.skills 
+                    section.skillBar 
+                        section.skillName C++
+                        section.gradebar 
+                            section.grade 5/5
+
+                section#skill-20.skills  
+                    section.skillBar
+                        section.skillName Java
+                        section.gradebar 
+                            section.grade 4/5
+
+                section#skill-21.skills  
+                    section.skillBar
+                        section.skillName C
+                        section.gradebar 
+                            section.grade 4/5
+
+                section#skill-22.skills  
+                    section.skillBar
+                        section.skillName MongoDb
+                        section.gradebar 
+                            section.grade 4/5
+
+                //- section#skill-23.skills  
+                //-     section.skillBar
+                //-         section.skillName Firebase
+                //-         section.gradebar 
+                //-             section.grade 5/5
+
+                section#skill-24.skills  
+                    section.skillBar
+                        section.skillName React-native
+                        section.gradebar 
+                            section.grade 4/5
+
+                section#skill-25.skills  
+                    section.skillBar
+                        section.skillName SQL
+                        section.gradebar 
+                            section.grade 3.5/5
+
+                section#skill-26.skills  
+                    section.skillBar
+                        section.skillName Django
+                        section.gradebar 
+                            section.grade 4/5
+
+            section#courses-section
+                h1#crsesHeading COURSES
+                ul#courses-list 
+                    li
+                        h3 TA 111:  
+                        a(href="#") FUNDAMENTALS OF COMPUTER PROGRAMMING 
+                    li 
+                        h3 MAT 112: 
+                        a(href="#") CALCULUS 
+                    li 
+                        h3 ECON 102: 
+                        a(href="#") ECONOMICS 
+                    
+                    li 
+                        h3 CS 231: 
+                        a(href="#") DATABASE MANAGEMENT SYSTEMS 
+                    li 
+                        h3 CS 302: 
+                        a(href="#") THEORY OF COMPUTATION
+                    li 
+                        h3 EL 111: 
+                        a(href="#") FUNDAMENTALS OF ELECTRONICS 
+                    li 
+                        h3 CS 102: 
+                        a(href="#") DATA STRUCTURES 
+                    li 
+                        h3 MAT 101: 
+                        a(href="#") ALGEBRA AND DIFFERENTIAL EQUATIONS 
+                    li 
+                        h3 PHY 101: 
+                        a(href="#") PHYSICS 
+                    li 
+                        h3 TA 212: 
+                        a(href="#") WORKSHOP PRACTICE 
+                    li 
+                        h3 TA 102: 
+                        a(href="#") COMMUNICATION SKILLS 
+                    li 
+                        h3 CS 232: 
+                        a(href="#") DISCRETE MATHEMATICS 
+                    li 
+                        h3 CS 241: 
+                        a(href="#") INTRODUCTION TO COMMUNICATION SYSTEM
+                    li 
+                        h3 CS 251: 
+                        a(href="#") OBJECT ORIENTED PROGRAMMING 
+                    li 
+                        h3 CS 332: 
+                        a(href="#") COMPLIER DESIGN
+                    li 
+                        h3 EL 302: 
+                        a(href="#") DIGITAL IMAGE PROCESSING
+                    
+                    li 
+                        h3 CS 122: 
+                        a(href="#") COMPUTER ARCHITECTURE AND ORGANISATION  
+                    
+                    li 
+                        h3 CS 211: 
+                        a(href="#") OPERATING SYSTEM 
+                    li 
+                        h3 CS 201: 
+                        a(href="#") DESIGN AND ANALYSIS OF ALGORITHMS
+
+                    li 
+                        h3 CS 261: 
+                        a(href="#") COMPUTER NETWORK 
+
+                    li 
+                        h3 CS 4101: 
+                        a(href="#") INTRODUCTION TO LINEAR AND NON- LINEAR OPTIMIZATION 
+
+                    li 
+                        h3 CS 301: 
+                        a(href="#") SOFTWARE ENGINEERING 
+                    li 
+                        h3 EL 101: 
+                        a(href="#") DIGITAL LOGIC AND CIRCUIT 
+                    li 
+                        h3 MAT 221: 
+                        a(href="#") PROBABILITY OF RANDOM PROCESS 
+
+                    
+                    li 
+                        h3 CS 322: 
+                        a(href="#") ARTIFICIAL INTELLIGENCE 
+                    li 
+                        h3 CS 392: 
+                        a(href="#") CAPSTONE PROJECT- I 
+                    
+                    li 
+                        h3 CS 4111: 
+                        a(href="#") COMPUTER VISION 
+
+                    
+                    li 
+                        h3 NU 302: 
+                        a(href="#") R AND D PROJECT 
+                    
+                    li 
+                        h3 CS 4261: 
+                        a(href="#") NATURAL LANGUAGE PROCESSING AND TEXT ANALYTICS 
+                
+                     
+                
+

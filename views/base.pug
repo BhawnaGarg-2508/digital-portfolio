@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    title BhawnaGarg
+    block scripts
+    block style
+        style
+            include ../static/base.css
+            //- link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css")
+            //- include https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap
+  body
+    nav#navbar
+        section#name
+            h3 #[a(href="/") BHAWNA GARG]
+                
+        section#ul-list
+            ul 
+                li #[a(href="/") ABOUT] 
+                li #[a(href="/resume") RESUME]  
+                li #[a(href="/projects") PROJECTS] 
+                li #[a(href="/certificates") CERTIFICATES]
+                li #[a(href="/contact") CONTACT]
+
+    section#main-body 
+        section#fixedpart
+            section#fixedpart1
+                section#profImg
+                    img(src="../static/images/profile.jpeg")
+                h1 BHAWNA GARG 
+                a(href="mailto: bhawna.garg20@st.niituniversity.in") EMAIL-ME-HERE
+            hr
+            section#fixedpart2
+                h1 ABOUT 
+                p Coding Enthusiast. Python , C, Java, Javascript. Hobbies : Artwork ,listening music, writing. Intersted in solving maths questions.  Intern and a Peer to peer learning tutor in Fundamentals of Electronics for juniours to help them out , selected by NIIT university.
+                //- button LEARN MORE
+
+        section#variablepart
+            block content 
+
+
+    
+    block foot

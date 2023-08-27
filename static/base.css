@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+* h1{
+    color: black;
+    letter-spacing: 0.25em;
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px rgb(181, 178, 178);
+    position: fixed;
+    background-color: white;
+    z-index: 10000;
+    top: 0;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(184, 179, 179);
+    border-right: none;
+    border-top: none;
+    width: 10%;
+
+}
+
+#name a{
+    text-decoration: none;
+    letter-spacing: 0.25em;
+    padding: 5px 7px;
+    font-size: 0.8rem;
+    color: black;
+    
+}
+#name a:hover{
+    color: rgb(42, 42, 159);
+}
+
+#ul-list{
+    display: block;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 10px 20px;
+    border: 1px solid rgb(184, 179, 179);
+    width: 90%;
+    border-top: none;
+}
+
+#ul-list ul{
+    list-style: none;
+    display: flex;
+}
+
+#ul-list ul li{
+    margin: 5px;
+    border-right: 1px solid rgb(184, 179, 179);
+}
+
+#ul-list ul li:nth-child(5){
+    border: none;
+}
+
+#ul-list ul li a{
+    text-decoration: none;
+    letter-spacing: 0.25em;
+    color: rgb(122, 119, 119);
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+#ul-list ul li a:hover{
+    color: rgb(63, 63, 241);
+}
+
+
+/* mainbody */
+
+#main-body{
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    top: 70px;
+    position: relative;
+}
+
+
+#fixedpart{
+    width: 25%;
+    /* border: 2px solid grey; */
+    padding: 50px 40px 30px 40px;
+}
+
+#fixedpart1{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#fixedpart1 img{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+}
+
+#fixedpart1 h1{
+    padding: 10px 0px;
+    margin: 10px 10px 0px 10px;
+    font-size: 1.8rem;
+    letter-spacing: 0.15em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 51, 51);
+}
+
+#fixedpart1 a{
+    padding: 10px 0px;
+    margin: 0px 10px ;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(118, 116, 116);
+    text-decoration:underline;
+
+}
+
+#fixedpart1 a:hover{
+    color: rgb(63, 63, 241);
+}
+
+#fixedpart hr{
+    margin: 30px 0px 30px 0px;
+}
+
+#fixedpart2 h1{
+    padding: 10px 0px;
+    margin: 10px 10px 0px 10px;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 51, 51);
+
+}
+
+#fixedpart2 p{
+    padding: 10px 0px;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: rgb(52, 51, 51);
+
+}
+
+#fixedpart2 button{
+    padding: 12px 15px;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    color: rgb(52, 51, 51);
+    border: 0.8px solid grey;
+    
+}
+
+#fixedpart2 button:hover{
+    cursor: pointer;
+    padding: 10px 10px;
+    color: rgb(42, 42, 159);
+    text-decoration: underline;
+}
+
+#variablepart{
+    width: 75%;
+    /* border: 2px solid black; */
+    padding: 50px 50px 70px 20px;
+}
+
+/* #variablepart #flottingpart{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(184, 179, 179);
+    box-shadow: 0px 0px 3px 1px rgb(181, 178, 178);
+
+
+} */
+
+

@@ -1,0 +1,75 @@
+extends base.pug
+
+block scripts 
+
+block style
+    style 
+        include ../static/base.css
+        include ../static/projects.css
+
+block content
+    section#flottingpart
+        section#title 
+            h1 PROJECTS
+            p SOME OF MY PROJECTS
+        hr
+        section#bodypart
+            
+            section#project-2.projects
+                h1.nameProj
+                    a(href="https://github.com/BhawnaGarg-2508/NuNavigation/tree/7c4cc015b063a10ec70459ad0e7ffe6f3a490716") NU NAVIGATION SYSTEM
+                h1.date JANUARY 2023 - MAY 2023
+                section.imagedesc
+                    a(href="https://github.com/BhawnaGarg-2508/NuNavigation/tree/7c4cc015b063a10ec70459ad0e7ffe6f3a490716") 
+                        img(src="../static/images/Nu-navigation.png")
+                    section.desc 
+                        p This application is developed using Unity software and uses C# language for its code base and the dotnet framwework. This application is based on Augumented Reality AR. This provides the naviation starting from the university's main gate to various places inside NU campus. The mobile camera serves as the indicator object and the red line displayed on the screen takes us to the desried location using the shortest path findng algorithm 
+
+            section#project-4.projects
+                h1.nameProj 
+                    a(href="https://github.com/BhawnaGarg-2508/ECG-Signal-Segmentation/tree/a8a3d5b733b07543c5b70078f3c3417ccfb2b59a") ECG SIGNAL SEGMENTATION USING HAAR WAVELET
+                h1.date SINCE JANUARY 2023
+                section.imagedesc 
+                    a(href="https://github.com/BhawnaGarg-2508/ECG-Signal-Segmentation/tree/a8a3d5b733b07543c5b70078f3c3417ccfb2b59a")
+                        img(src="../static/images/ecg-signal-seg.png")
+                    section.desc 
+                        p This project aims at segmenting the ECG signals as a first step to make it enable for further processing to find out whether the person with that electocardiogram is healthy or possess some heart disease. It segments the ECG signal into beats which can be individually passed into algorithm for detecting abnormalities. Done in pyhon, this project us=tilizes the concept of Haar wavelt transform to acheive effective segmentation. 
+
+            section#project-5.projects
+                h1.nameProj 
+                    a(href="https://github.com/BhawnaGarg-2508/alarm-clock-app/tree/76e942ac3bca35d5945d2e5ea358adf0fa4ab5a7") ALARM CLOCK 
+                h1.date JULY 2023
+                section.imagedesc 
+                    a(href="https://github.com/BhawnaGarg-2508/alarm-clock-app/tree/76e942ac3bca35d5945d2e5ea358adf0fa4ab5a7")
+                        img(src="../static/images/alarm-clock.png")
+                    section.desc 
+                        p This is an alarm clock website that contains all the features of an alarm clock. During setting the alarm, it takes the current time by default. It has the features of selecting alarm tone, activating and deactivating the alarm, snoozing the alarm with snooze time selection and deleting the alarm. Plus, it also shows the remaining time for every active alarm. This website is made purely through HTML, CSS and Javascript and is a good frontend project. 
+
+            section.projects#project-1
+                h1.nameProj 
+                    a(href="https://github.com/BhawnaGarg-2508/TaskManager-react-Django/tree/472f3c1c97b5610b7a35410277cb265f150292a0") TASK MANAGER 
+                h1.date AUGUST 2023
+                section.imagedesc 
+                    a(href="https://github.com/BhawnaGarg-2508/TaskManager-react-Django/tree/472f3c1c97b5610b7a35410277cb265f150292a0")
+                        img(src="../static/images/Task-Manager.jpg")
+                    section.desc 
+                        p This is a task manager application whose frontend is developed using Django and the frontend is developed using react.js. Further enhancement of this application is to create a mobile application using react- native for the task manager ap and connect it with the same backend. Thus, a web application using react.js and another mobile application using react-native would be connected to the same backend. 
+
+
+            section#project-3.projects
+                h1.nameProj 
+                    a(href="https://github.com/BhawnaGarg-2508/CRUD/tree/0623fdcb1287b4587c911aeef0b9f25b7ccad3ce") CRUD APPLICATION
+                h1.date MARCH 2023
+                section.imagedesc 
+                    a(href="https://github.com/BhawnaGarg-2508/CRUD/tree/0623fdcb1287b4587c911aeef0b9f25b7ccad3ce")
+                        img(src="../static/images/Crud-app.png")
+                    section.desc 
+                        p This project is a basic CRUD application that uses mongoDB as its database. This crud application creates, reads, updates and deletes data from the student table stored in the database. The data fetched is retrieved in the form itself from where it can be updated again if required. The application is a single page application made using HTML, CSS and Javascript along with express.js.
+            //- section#project-4.projects
+            //-     h1.nameProj 
+            //-         a(href="") NAME OF THE PROJECT
+            //-     h1.date DATE
+            //-     section.imagedesc 
+            //-         img(src="../static/images/projects.jpg")
+            //-         section.desc 
+            //-             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quo nobis labore, nihil odit nemo recusandae consequuntur obcaecati quidem optio. Fugiat laudantium corrupti facilis incidunt quidem voluptatum, a id natus! 

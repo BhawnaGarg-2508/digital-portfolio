@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts 
+
+block style
+    style 
+        include ../static/base.css
+        include ../static/contact.css
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css") 
+
+block content
+    section#flottingpart
+        section#title 
+            h1 CONTACT
+            p 
+        hr
+        section#bodypart
+            p#contText To get in touch with me, you can e-mail me at:
+            p#email Email:
+                a(href="mailto: bhawna.garg20@st.niituniversity.in") bhawna.garg20@st.niituniversity.in 
+            section#icons
+                a#git(href="https://github.com/BhawnaGarg-2508")
+                    img(src="../static/images/github.png", alt="", srcset="")
+                a#ldn(href="https://www.linkedin.com/in/bhawna-garg-94a462201/")
+                    img(src="../static/images/linkedin.png", alt="", srcset="")
+                a#mail(href="mailto: bhawna.garg20@st.niituniversity.in")
+                    img(src="../static/images/mail.png", alt="", srcset="")
+                    
